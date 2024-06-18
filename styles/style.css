@@ -1,0 +1,15 @@
+body{
+    background-color: yellowgreen;
+
+    color: pink;
+}
+h1 {
+    color: aliceblue;
+    font-family: "Playfair Display", serif;
+    font-weight: bold
+}
+
+p{
+    font-family: "Poppins", serif;
+    font-weight: normal;
+}
