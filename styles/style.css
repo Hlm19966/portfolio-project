@@ -108,6 +108,35 @@ a {
     font-size: 16px;
 }
 
+nav { 
+   padding: 20px 0;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    margin-left: 10px;
+    color: #272142;
+    transition: all 100ms ease-in-out;
+}
+
+nav a:hover {
+    color: var(--branding-color);
+}
+
+nav li.active a {
+    color: var(--branding-color);
+}
+
 @media (max-width: 960px) {
 
     h1 {
@@ -131,5 +160,9 @@ a {
  .content {
     text-align: center;
     padding: 0;
+ }
+
+ .logo {
+    max-width: 125px;
  }
 }
